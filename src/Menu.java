@@ -14,6 +14,7 @@ public class Menu {
     }
 
     public void go(){
+        //Command pattern
         while (true) {
             System.out.println("Select an option:");
             System.out.println("1. Get a book by id");

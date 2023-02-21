@@ -3,6 +3,7 @@ import data.PostgreSQL;
 import entities.Book;
 import java.sql.*;
 public class BookRepository {
+    //Repository pattern
     private final PostgreSQL db;
     public BookRepository(PostgreSQL db){this.db = db;}
     public Book getBook(int id){

@@ -5,6 +5,7 @@ import repositories.BookRepository;
 
 public class BookController {
     private final BookRepository repo;
+    //Dependency injection pattern
     public BookController(BookRepository repo) {
         this.repo = repo;
     }
